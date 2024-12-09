@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #d6e4f0);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.form-container {
+    background: #ffffff;
+    color: #111827;
+    padding: 25px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    width: 400px;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #0f172a;
+    font-weight: 700;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #f9fafb;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus {
+    border-color: #4ade80;
+    outline: none;
+    box-shadow: 0 0 6px rgba(74, 222, 128, 0.5);
+    background: #ffffff;
+}
+
+form .form-group {
+    display: flex;
+    gap: 10px;
+}
+
+form .form-group input {
+    flex: 1;
+}
+
+form button {
+    background: #22c55e;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button.primary {
+    background: #4ade80;
+    color: #ffffff;
+}
+
+form button.primary:hover {
+    background: #22c55e;
+}
+
+form button.primary:active {
+    background: #16a34a;
+    transform: scale(0.98);
+}
+
+form button.secondary {
+    background: #60a5fa;
+    color: #ffffff;
+}
+
+form button.secondary:hover {
+    background: #3b82f6;
+}
+
+form button.secondary:active {
+    background: #2563eb;
+    transform: scale(0.98);
+}
+
+.form-footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.form-footer a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+    .form-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
