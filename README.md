@@ -19,8 +19,6 @@ This project implements a simple student registration system with PHP and MySQL.
 - HTML form ensures user-friendly input and uses CSS for styling.
 - This project is a beginner-friendly example of PHP and MySQL integration for managing basic CRUD operations.
 
-<img src="https://github.com/user-attachments/assets/a3d1225b-f1e8-4a0a-ac43-cb5ea49e21d8" width = 80%>
 
-
-https://github.com/user-attachments/assets/89e82ee6-df44-4f62-b16e-52629262a560
+https://github.com/user-attachments/assets/75b327cc-74f9-4a28-8764-255d13724792
 
