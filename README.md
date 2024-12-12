@@ -22,3 +22,5 @@ This project implements a simple student registration system with PHP and MySQL.
 
 https://github.com/user-attachments/assets/75b327cc-74f9-4a28-8764-255d13724792
 
+https://github.com/user-attachments/assets/99853812-2842-4c61-be9f-8f594f56b32d
+
